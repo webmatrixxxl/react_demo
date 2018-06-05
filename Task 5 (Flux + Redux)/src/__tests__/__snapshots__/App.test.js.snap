@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing 1`] = `
+Array [
+  <header
+    style={
+      Object {
+        "backgroundImage": "url(./bg--netflix.jpg)",
+      }
+    }
+  >
+    <div>
+      <h1
+        className="header__logo"
+      >
+        netflixroulette
+      </h1>
+      <button>
+        Search
+      </button>
+    </div>
+    <div
+      className="search"
+    >
+      <h3>
+        find your movie
+      </h3>
+      <div>
+        <input
+          name="searchMovie"
+          type="search"
+        />
+         
+        <button>
+          i
+        </button>
+      </div>
+      <div>
+        <div>
+          search by 
+          <button>
+            title
+          </button>
+           
+          <button>
+            genre
+          </button>
+        </div>
+        <button>
+          search
+        </button>
+      </div>
+    </div>
+  </header>,
+  <main />,
+  <footer>
+    <h1
+      className="header__logo"
+    >
+      netflixroulette
+    </h1>
+  </footer>,
+]
+`;
